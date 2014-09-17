@@ -6,6 +6,7 @@
 		<action name="loginmsg" class="com.action.LoginAction">
 			<result name="success" type="dispatcher">/ok.jsp</result>
 			<result name="error" type="dispatcher">/error.jsp</result>
+                        <result name="ok" type="dispatcher">/error.jsp</result>
 		</action>
 	</package>
 </struts>    
