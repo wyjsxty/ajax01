@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="loginx" location="139,65" size="238,212">
+    <action name="loginmsg" location="9,41" size="187,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="ok.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="ok.jsp" path="/ok.jsp" location="567,57" size="150,55" />
+  <webResource name="error.jsp" path="/error.jsp" location="568,182" size="150,55" />
+</Struts2Diagram>
+
